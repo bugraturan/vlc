@@ -7,7 +7,7 @@ Tsym=1e-6;	%%% Symbol Rate: e.g., Tsym = 1/fsym = 1/20e6
 Ts=Tsym/1000;		%%% CppSim internal time step, also used to sample %40 Mhz = Ts > 2.5e-8  %1ns resolution, 1 Ghz of total BW,fill up to 500MHz 
 nsym_short=400*1e-7/Tsym; 
 
-FileName = 'E:\anritsu_final_meas\070718\my\20180817_APD_VNA_Amp_GPlast\APD_Garaj_AMP_Gplast_V2V\20180902_0.s2p';
+FileName = '20180902_0.s2p';
 SingleEndedData = read(rfdata.data, FileName);
 HSon= sparameters('20180902_0.s2p');
 HSoff= sparameters('20180902_1.s2p');
